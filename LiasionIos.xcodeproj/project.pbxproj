@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		341512421E4D8097003A0BA9 /* kTextFiledPlaceHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341512411E4D8097003A0BA9 /* kTextFiledPlaceHolder.swift */; };
+		342A353D1E513B0200B9A2C7 /* Inicio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342A353C1E513B0200B9A2C7 /* Inicio.storyboard */; };
+		342A353F1E528E1200B9A2C7 /* RegistrateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A353E1E528E1200B9A2C7 /* RegistrateController.swift */; };
 		34EFE93E1E42E72100101B91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EFE93D1E42E72100101B91 /* AppDelegate.swift */; };
-		34EFE9401E42E72100101B91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EFE93F1E42E72100101B91 /* ViewController.swift */; };
+		34EFE9401E42E72100101B91 /* IniciarSesionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EFE93F1E42E72100101B91 /* IniciarSesionController.swift */; };
 		34EFE9431E42E72100101B91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34EFE9411E42E72100101B91 /* Main.storyboard */; };
 		34EFE9451E42E72100101B91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34EFE9441E42E72100101B91 /* Assets.xcassets */; };
 		34EFE9481E42E72100101B91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34EFE9461E42E72100101B91 /* LaunchScreen.storyboard */; };
+		34EFE9501E42F6F300101B91 /* PageControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EFE94F1E42F6F300101B91 /* PageControllerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		341512411E4D8097003A0BA9 /* kTextFiledPlaceHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kTextFiledPlaceHolder.swift; sourceTree = "<group>"; };
+		342A353C1E513B0200B9A2C7 /* Inicio.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Inicio.storyboard; sourceTree = "<group>"; };
+		342A353E1E528E1200B9A2C7 /* RegistrateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrateController.swift; sourceTree = "<group>"; };
 		34EFE93A1E42E72100101B91 /* LiasionIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiasionIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34EFE93D1E42E72100101B91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		34EFE93F1E42E72100101B91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34EFE93F1E42E72100101B91 /* IniciarSesionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IniciarSesionController.swift; sourceTree = "<group>"; };
 		34EFE9421E42E72100101B91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34EFE9441E42E72100101B91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34EFE9471E42E72100101B91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34EFE9491E42E72100101B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34EFE94F1E42F6F300101B91 /* PageControllerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageControllerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		341512401E4D807C003A0BA9 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				341512411E4D8097003A0BA9 /* kTextFiledPlaceHolder.swift */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		342A353B1E4F917F00B9A2C7 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				342A353C1E513B0200B9A2C7 /* Inicio.storyboard */,
+			);
+			name = storyboard;
+			sourceTree = "<group>";
+		};
 		34EFE9311E42E72000101B91 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +78,16 @@
 		34EFE93C1E42E72100101B91 /* LiasionIos */ = {
 			isa = PBXGroup;
 			children = (
+				342A353B1E4F917F00B9A2C7 /* storyboard */,
+				341512401E4D807C003A0BA9 /* lib */,
 				34EFE93D1E42E72100101B91 /* AppDelegate.swift */,
-				34EFE93F1E42E72100101B91 /* ViewController.swift */,
+				34EFE93F1E42E72100101B91 /* IniciarSesionController.swift */,
 				34EFE9411E42E72100101B91 /* Main.storyboard */,
 				34EFE9441E42E72100101B91 /* Assets.xcassets */,
 				34EFE9461E42E72100101B91 /* LaunchScreen.storyboard */,
 				34EFE9491E42E72100101B91 /* Info.plist */,
+				34EFE94F1E42F6F300101B91 /* PageControllerView.swift */,
+				342A353E1E528E1200B9A2C7 /* RegistrateController.swift */,
 			);
 			path = LiasionIos;
 			sourceTree = "<group>";
@@ -126,6 +154,7 @@
 				34EFE9481E42E72100101B91 /* LaunchScreen.storyboard in Resources */,
 				34EFE9451E42E72100101B91 /* Assets.xcassets in Resources */,
 				34EFE9431E42E72100101B91 /* Main.storyboard in Resources */,
+				342A353D1E513B0200B9A2C7 /* Inicio.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34EFE9401E42E72100101B91 /* ViewController.swift in Sources */,
+				34EFE9501E42F6F300101B91 /* PageControllerView.swift in Sources */,
+				341512421E4D8097003A0BA9 /* kTextFiledPlaceHolder.swift in Sources */,
+				34EFE9401E42E72100101B91 /* IniciarSesionController.swift in Sources */,
 				34EFE93E1E42E72100101B91 /* AppDelegate.swift in Sources */,
+				342A353F1E528E1200B9A2C7 /* RegistrateController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +329,7 @@
 				34EFE94E1E42E72100101B91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

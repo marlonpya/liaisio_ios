@@ -1,0 +1,12 @@
+
+/* Class = "UINavigationItem"; title = "Iniciar Sesión"; ObjectID = "Icm-pQ-gWm"; */
+"Icm-pQ-gWm.title" = "Iniciar Sesión";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "ZBC-rq-jIj"; */
+"ZBC-rq-jIj.title" = "Back";
+
+/* Class = "UITextField"; placeholder = "Correo:"; ObjectID = "ey7-kO-3Qk"; */
+"ey7-kO-3Qk.placeholder" = "Correo:";
+
+/* Class = "UITextField"; placeholder = "Contraseña:"; ObjectID = "gdN-JO-y9C"; */
+"gdN-JO-y9C.placeholder" = "Contraseña:";
